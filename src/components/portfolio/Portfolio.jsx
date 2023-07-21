@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG1 from '../../assets/activeAllyPicture.png'
+import IMG2 from '../../assets/portfolioSite.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
@@ -12,45 +12,45 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Monster Dietz',
-    github: 'https://github.com',
+    title: 'Active Ally',
+    github: 'https://github.com/adrianvences/activeally',
     demo : 'https://github.com'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Fitness Ally',
-    github: 'https://github.com',
+    title: 'My Portfolio',
+    github: 'https://github.com/adrianvences/react-portfolio-website',
     demo : 'https://github.com'
   },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'Monster Dietz',
-    github: 'https://github.com',
-    demo : 'https://github.com'
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Monster Dietz',
-    github: 'https://github.com',
-    demo : 'https://github.com'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Monster Dietz',
-    github: 'https://github.com',
-    demo : 'https://github.com'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Monster Dietz',
-    github: 'https://github.com',
-    demo : 'https://github.com'
-  },
+  // {
+  //   id: 3,
+  //   image: IMG3,
+  //   title: 'Monster Dietz',
+  //   github: 'https://github.com/adrianvences/monsterDietz',
+  //   // demo : 'https://github.com'
+  // },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: 'Monster Dietz',
+  //   github: 'https://github.com',
+  //   demo : 'https://github.com'
+  // },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: 'Monster Dietz',
+  //   github: 'https://github.com',
+  //   demo : 'https://github.com'
+  // },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: 'Monster Dietz',
+  //   github: 'https://github.com',
+  //   demo : 'https://github.com'
+  // },
 
 ]
 
@@ -70,8 +70,8 @@ const Portfolio = () => {
         </div>
         <h3>{title}</h3>
         <div className='portfolio__item-cta'>
-        <a href={github} className='btn'>GitHub</a>
-        <a href={demo} className='btn btn-primary'>Live Demo</a>
+        <a href={github} target='_blank' className='btn'>GitHub</a>
+        {/* <a href={demo} className='btn btn-primary'>Live Demo</a> */}
         </div>
       </article>
           )

@@ -38,8 +38,17 @@ const About = () => {
             </div>
 
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius facere vitae rerum! Ex beatae vel nam aut,
-              repudiandae suscipit quibusdam, veritatis laudantium ipsa, delectus quae maxime laboriosam dolore asperiores facilis?
+              <p>
+                Hello World! My name is Adrian Vences, and i am a full stack developer from Charlotte North Carolina.
+              I have passion for solving problems and designing websites. My goal as a software developer is to put my 
+              skills to the test and be able to contribute in anyway i can and for that reason i am constantly growing my
+              knowledge every day. When im not studying , I am at the Gym pushing my self harder than last time, spending time 
+              with my family or at home enjoying my day off.
+              </p>
+              <p>
+              I am open to any job opportunities where I can apply my skills, learn and grow with a team. If I match your job 
+              opportunity with my skills and knowledge then please contact me.  
+              </p>
             </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>

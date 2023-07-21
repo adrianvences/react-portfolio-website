@@ -4,29 +4,27 @@
 }
 
 .client__avatar {
-  width: 4rem;
-  aspect-ratio: 1/1;
+  aspect-ratio: 4/2;
   overflow: hidden;
-  border-radius: 50%;
-  margin: 0 auto 1rem;
-  border: 0.4rem solid var(--color-primary-variant);
+  border-radius: 2rem;
+  
 }
 
 .testimonial {
   background: var(--color-bg-variant) ;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 2rem;
   user-select: none;
 }
 
-.client__review {
-  color: var(--color-light);
-  font-weight: 300;
-  display: block;
-  width: 80%;
-  margin: 0.8rem auto 0;
+.client__name {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
+
+
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
   background: var(--color-primary) ;

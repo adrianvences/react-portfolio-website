@@ -6,38 +6,42 @@ const Services = () => {
   return (
     <section id='services'>
       <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h2>Skills</h2>
 
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
-            <h3>UI/UX</h3>
+            <h3>Character Traits</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Man of integrity.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Ability to work well under pressure.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Strong interpersonal skills.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Self-motivated and proactive.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Empathetic, humble and willing to learn from others.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Analytical and critical thinking abilities</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Responsible.</p>
             </li>
           </ul>
 
@@ -51,27 +55,27 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Able to create full stack Crud applications.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Familiar with a wide variety of languages and frameworks.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Went through an immersive 4 month full stack bootcamp where i was able to practice </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Building, Testing, Debugging and deploying code.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Colaborating with Cohort mates to complete assignments and projects.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Practiced Scrum.</p>
             </li>
           </ul>
 
@@ -79,34 +83,33 @@ const Services = () => {
         {/* end of web dev */}
         <article className='service'>
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Previous Job Experience</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Plumbing Foreman</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>I was in a leadership position.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Was responsible for assigning plumbers to specific tasks to complete and supervise activities.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Reduced layout deployment time by implementing system to reduce time on sight 
+              and increase work production .</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Was responsible to train new employees in proper methods to become plumbers to be able 
+                to complete tasks given.</p>
             </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
+            
           </ul>
 
         </article>
